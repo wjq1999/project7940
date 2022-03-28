@@ -17,8 +17,6 @@ client.on("error", function(err) {
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const request = require('request');
-const token = '5147675590:AAF997XJDqW5fIZzRZHp2z0FWaVPnYstQNE';
-const tmdbapi = '7d095a015762248b5ac552359028d844';
 
 const app = express();
 

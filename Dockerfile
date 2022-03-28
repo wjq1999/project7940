@@ -2,6 +2,8 @@ FROM node
 ENV r_host = "10.139.192.123"
 ENV r_port = "6379"
 ENV r_password = "3fab48d7-0d49-4945-bc19-2da53fab9bdf"
+ENV token="5147675590:AAF997XJDqW5fIZzRZHp2z0FWaVPnYstQNE"
+ENV tmdbapi="7d095a015762248b5ac552359028d844"
 WORKDIR /7940project
 COPY index.js /7940project
 RUN npm i node-telegram-bot-api
